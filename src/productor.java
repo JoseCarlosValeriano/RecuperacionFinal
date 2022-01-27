@@ -1,7 +1,7 @@
 public class productor extends Thread {
 
     // instancio las constantes necesarias para utilizarlas más adelante
-    private final concecionario buffer;
+    private final concesionario buffer;
     private final int unidadesDeCochesProducidos;
     private final int tiempoDeProduccion;
 
@@ -17,7 +17,7 @@ public class productor extends Thread {
     };
 
     // creo el constructor
-    public productor(concecionario buffer, int unidadesDeCochesProducidos, int tiempoDeProduccion) {
+    public productor(concesionario buffer, int unidadesDeCochesProducidos, int tiempoDeProduccion) {
         this.buffer = buffer;
         this.unidadesDeCochesProducidos = unidadesDeCochesProducidos;
         this.tiempoDeProduccion = tiempoDeProduccion;

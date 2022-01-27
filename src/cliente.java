@@ -1,8 +1,8 @@
 public class cliente extends Thread {
-    private concecionario buffer;
+    private concesionario buffer;
     private int unidadcompracoche;
 
-    public cliente(concecionario buffer, int unidadcompracoche) {
+    public cliente(concesionario buffer, int unidadcompracoche) {
         this.buffer = buffer;
         this.unidadcompracoche = unidadcompracoche;
     }

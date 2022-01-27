@@ -1,4 +1,4 @@
-public class concecionario {
+public class concesionario {
 
     private String cochesAlmacenados[];
     private int puntero =0;
@@ -6,7 +6,7 @@ public class concecionario {
     private boolean vacio = true;
 
     // Asigna la distancia que tienes de los coches almacenados
-    public concecionario (int capacidad) {this.cochesAlmacenados = new String[capacidad];}
+    public concesionario(int capacidad) {this.cochesAlmacenados = new String[capacidad];}
 
     public synchronized void introducirCoche(String coche) throws InterruptedException {
 
